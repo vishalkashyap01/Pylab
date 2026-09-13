@@ -119,3 +119,13 @@
 # for i in range(1, 11):
 #     print(i*5)
 
+str = "JAI SHREE RADHE"
+# print(len(str))
+# for i in range(len(str)):
+#     print(str[i])
+# for i in str:
+#     print(i)
+# for i in range(len(str)-1, -1, -1):
+#     print(str[i])
+# for i in str[::-1]:
+#     print(i)

@@ -83,3 +83,39 @@
 
 
 # Problem  - 3
+# # leap year (century year - /400, reg yr - /4)
+
+# year = int(input("Please, tell me year:- "))
+# if year % 4 == 0:
+#     if year % 400 == 0 and year % 100 == 0:
+#         print(f"{year} is a century leap year")
+#     else:
+#         print(f"{year} is a regular leap year")
+# else:
+#     print(f"{year} is not a leap year")             
+
+
+
+# range() function
+# a = range(2, 25, 3)
+# print(a)
+# print(list(a))
+
+# Loops - for & while
+
+# For loop
+# 20 - 50 
+# for i in range(20, 51):
+#     print(i)
+    
+# 10 - 4
+# for i in range(10, 3, -1):
+#     print(i)    
+
+# -3 to -15
+# for i in range(-2, -16, -1):
+#     print(i)
+
+# for i in range(1, 11):
+#     print(i*5)
+

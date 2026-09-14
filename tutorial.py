@@ -132,13 +132,26 @@
 #     print(i)
 
 # Falsy values
-print(bool(0))
-print(bool(""))
-print(bool([])) 
-print(bool(()))
-print(bool({}))
-print(bool(None))
-print(bool(False))
-print(bool(()))
-print(bool([]))
-print(bool({}))
+# print(bool(0))
+# print(bool(""))
+# print(bool([])) 
+# print(bool(()))
+# print(bool({}))
+# print(bool(None))
+# print(bool(False))
+# print(bool(()))
+# print(bool([]))
+# print(bool({}))
+
+
+# prime = True
+# for i in range(2, 500):
+#     half_life = int(i/2+1)
+#     for j in range(2, half_life):
+#         if i % j == 0:
+#             prime = False
+#             break
+#         else:
+#             prime = True
+#     if prime:
+#         print(i)

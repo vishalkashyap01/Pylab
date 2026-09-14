@@ -119,7 +119,8 @@
 # for i in range(1, 11):
 #     print(i*5)
 
-str = "JAI SHREE RADHE"
+# str = "JAI SHREE RADHE"
+
 # print(len(str))
 # for i in range(len(str)):
 #     print(str[i])
@@ -129,3 +130,15 @@ str = "JAI SHREE RADHE"
 #     print(str[i])
 # for i in str[::-1]:
 #     print(i)
+
+# Falsy values
+print(bool(0))
+print(bool(""))
+print(bool([])) 
+print(bool(()))
+print(bool({}))
+print(bool(None))
+print(bool(False))
+print(bool(()))
+print(bool([]))
+print(bool({}))

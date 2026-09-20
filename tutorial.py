@@ -221,8 +221,32 @@
 #     print(f"{str} is not a pallindrome string")    
 
 
+# for i in range(18, 181, 18):
+#     print(i)
+
+# n  = int(input("Please, enter any number: "))
+# for i in range(n, n*10+1, n):
+#     print(i)
+
+
 # ??? else with For loop when loop breaks without completing all iterations, else block will not execute.
+# break exceute --> else block will not execute.
+# break not execute --> else block will execute.
 
-
-for i in range(18, 181, 18):
+for i in range(10, 51,10):
+    if i == 25:
+        break
     print(i)
+    
+else:
+    print("Else executed")    
+
+
+
+for i in range(1, 10):
+    if i == 8:
+        break
+    print(i)
+    
+else:
+    print("Else executed")  

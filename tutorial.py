@@ -155,3 +155,67 @@
 #             prime = True
 #     if prime:
 #         print(i)
+
+
+# PRACTICE QS 
+
+# n = int(input("Please, type number - "))
+# for i in range(1, n+1):
+#     print("solve more & more problems")
+
+
+# n = int(input("Please, type number - "))
+# for i in range(1, n+1):
+#     print(i)
+
+
+# n = int(input("Please, type number - "))
+# for i in range(n, 0, -1):
+#     print(i)
+    
+
+# n = int(input("please, enter any number: "))   
+# sum = 0 
+# for i in range(1, n+1):
+#     sum += i
+# print(sum)    
+
+
+
+# n = int(input("please, enter any number: "))   
+# factorial = 1 
+# for i in range(1, n+1):
+#     factorial *= i
+# print(factorial)    
+
+
+
+# n = int(input("Please, give some number here "))
+# for i in range(2, int(n/2+1)):
+#     if n % i == 0:
+#         print(f"{n}'s factor is {i}")       
+
+
+
+# Check number is Perfect or Not
+# n = int(input("enter a number - "))
+# flag = 1
+# for i in range(1, int(n/2+1)):
+#     if flag < n:
+#         flag *= i
+#         if flag == n:
+#             print(f"{n} is Perfect number")
+#             break
+# else:
+#     print(f"{n} is not perfect number")
+
+#pallindrome string
+# str = input("Pleae, enterr any string: ")
+# new_str = ""
+# for i in range(len(str)-1, -1, -1):
+#     new_str += str[i]
+
+# if str == new_str:
+#     print(f"{str} is a pallindrome string")
+# else:
+#     print(f"{str} is not a pallindrome string")    

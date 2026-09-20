@@ -220,3 +220,9 @@
 # else:
 #     print(f"{str} is not a pallindrome string")    
 
+
+# ??? else with For loop when loop breaks without completing all iterations, else block will not execute.
+
+
+for i in range(18, 181, 18):
+    print(i)

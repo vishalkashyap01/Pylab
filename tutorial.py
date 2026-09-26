@@ -209,7 +209,9 @@
 # else:
 #     print(f"{n} is not perfect number")
 
-#pallindrome string
+
+# Pallindrome string
+
 # str = input("Pleae, enterr any string: ")
 # new_str = ""
 # for i in range(len(str)-1, -1, -1):
@@ -233,20 +235,73 @@
 # break exceute --> else block will not execute.
 # break not execute --> else block will execute.
 
-for i in range(10, 51,10):
-    if i == 25:
-        break
-    print(i)
+# for i in range(10, 51,10):
+#     if i == 25:
+#         break
+#     print(i)    
+# else:
+#     print("Else executed")    
+
+
+# for i in range(1, 10):
+#     if i == 8:
+#         break
+#     print(i)    
+# else:
+#     print("Else executed")  
+
+
+# # Reverse String
+# str = input("Please, enter any string: ")
+# for i in range(len(str)-1, -1, -1):
+#     print(str[i])
+
+
+
+# str = "abhscb&^$#@$0982rgO21"
+# dgit = 0
+# alpha = 0
+# keys = 0
+# for i in str:
+#     if i.isdigit():
+#         dgit += 1
+#     elif i.isalpha():
+#         alpha += 1  
+#     else:
+#         keys += 1
+        
+# print(f"Total digits in string are {dgit}")
+# print(f"Total alphabets in string are {alpha}")
+# print(f"Total special characters in string are {keys}")                
+
+
+# WHILE LOOP  (ctrl + c ---> stop terminal for infinite loop)
+
+# a = 5
+# while a < 10:
+#     print(a)
+#     # a += 1
+        
+# REVERSE NUMBER OR PALINDROME NUMBER
+# n = int(input("Please, enter any number : "))
+# reference = n
+# rev = 0
+# while n > 0:
+#     rev = rev * 10 + n % 10
+#     n = n // 10
     
-else:
-    print("Else executed")    
+# print(rev)  
+
+# if reference == rev:
+#     print(f"{reference} is a Palindrome")
+# else:
+#     print(f"{reference} is Not Palindrome")    
 
 
+# Seperate digit from number
 
-for i in range(1, 10):
-    if i == 8:
-        break
-    print(i)
-    
-else:
-    print("Else executed")  
+# n = int(input("enter a value here: "))
+# while n != 0:
+#     print(f"digit - {n % 10}")
+#     n = n // 10  
+

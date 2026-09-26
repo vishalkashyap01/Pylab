@@ -12,6 +12,9 @@ num = vishal.randint(11, 50)
 user_value = 0
 user_attempt = 0
 
+# cheating 
+# print(num)
+
 while num != user_value:
     print("Please, enter a number (1 to 50): ")
     user_value = int(input())

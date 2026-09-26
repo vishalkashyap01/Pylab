@@ -308,36 +308,32 @@
 
 # positional arguments :- Args()
 
-def greet():
-    print("Good evening! Vishal")
-    print("heavy raining outside... happy coding </>")
+# def greet():
+#     print("Good evening! Vishal")
+#     print("heavy raining outside... happy coding </>")
 
-greet()
+# greet()
 
 
 # Keyword arguments :- K-Args()
 
-# def greet(name, temp):
-#     print(f"Hello, {name} \n weather condintions : {temp} C")
+def greet(name, temp):
+    print(f"Hello, {name} \n weather condintions : {temp} C")
 
-# greet(temp = 27, name = "Vishal")       # keyword args 
-# greet("kavita", 24)         # positional args
-
-
+greet(temp = 27, name = "Vishal")       # keyword args 
+greet("kavita", 24)         # positional args
 
 
+# User define function 
 
+def add(a, b):
+    return a + b
 
+a = int(input("Please, enter a value (a: int) - "))
+b = int(input("Please, enter a value (a: int) - "))
 
-
-
-
-
-
-
-
-
-
+sum = add(a, b)
+print(f" sum of {a} & {b} is {sum}")
 
 
 

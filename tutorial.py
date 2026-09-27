@@ -371,3 +371,24 @@
 
 # print("\nGood morning, Sanvi")
 # ats(skills(), 27, projects())
+
+
+
+
+        # List - data structure
+
+# 1 display positive and negative numbers of a list
+# l = [23, 1, -8, 0, 65, -34, -15, 32]
+
+# for i in range(len(l)):
+#     if l[i] > 0:
+#         print(f"{l[i]} is Positive")
+    
+#     elif l[i] < 0:
+#         print(f"{l[i]} is Negative")
+        
+#     else:
+#         print(f"{l[i]} is Zero")    
+
+
+

@@ -391,4 +391,26 @@
 #         print(f"{l[i]} is Zero")    
 
 
+# 2 Greatest element and index too
 
+# Approch 1
+# li = [2, 7, 6, 9, 2, 1, 90, 7, 402, 102, -2, 11, -28]
+# li.sort()    # using sort() function
+# print(li)
+# print(f"Greatest element: {li[len(li)-1]}")
+# print(f"index : {len(li)-1}")
+
+
+
+# Find Greatest element with index in list
+
+# li = [2, 7, 6, 859, 2, 1, 90, 7, 402, 102, -2, 11, -28]
+
+# greatest_value = li[0]
+# index = 0
+# for i in range(len(li)):
+#         if li[i] >= greatest_value:
+#                 greatest_value = li[i]
+#                 index = i
+                
+# print(f"\nGreatest element is {greatest_value} & index is {index}")

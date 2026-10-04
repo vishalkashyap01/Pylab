@@ -426,6 +426,24 @@
 
 # List
 
-li = [1, 4, 2, 90, 23, 9.97, print, "Vishal", True, 4+9j, print()]
-print(type(li))  # <class 'list'>
-print(li)  # [1, 4, 2, 90, 23, 9.97, <built-in function print>, 'Vishal', True, (4+9j), None]
+# li = [1, 4, 2, 90, 23, 9.97, print, "Vishal", True, 4+9j, print()]
+# print(type(li))  # <class 'list'>
+# print(li)  # [1, 4, 2, 90, 23, 9.97, <built-in function print>, 'Vishal', True, (4+9j), None]
+
+
+# st = "hello"
+
+# st = "s" + st[1:]
+
+# print(st)
+
+
+
+# Mean of list
+
+list = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+sum = 0
+for i in list:
+    sum += i
+mean = sum / len(list)
+print(f"Mean of list is {mean}")

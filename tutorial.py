@@ -441,9 +441,33 @@
 
 # Mean of list
 
-list = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
-sum = 0
-for i in list:
-    sum += i
-mean = sum / len(list)
-print(f"Mean of list is {mean}")
+# list = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+# sum = 0
+# for i in list:
+#     sum += i
+# mean = sum / len(list)
+# print(f"Mean of list is {mean}")
+
+
+
+# largest number
+
+num = [23, 76, 189, 46, 90, 30, 45, 0, 89, 10]
+
+largest = num[0]
+smallest = num[0]
+largest_index = 0
+smallest_index = 0
+
+for i in range(len(num)):
+        if num[i] >= largest:
+                largest = num[i] 
+                largest_index = i
+        if num[i] <= smallest:
+                smallest = num[i]
+                smallest_index = i
+                        
+                        
+print(num)
+print(f"Largest number is {largest} and inedx is {largest_index}")        
+print(f"Smallest number is {smallest} and index is {smallest_index}")

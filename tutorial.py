@@ -416,3 +416,9 @@
 # print(f"\nGreatest element is {greatest_value} & index is {index}")
 
 # print(print()) # None
+
+
+# python automatically convert var with multiple value to data structure called tuple
+a = 1, 2, 3, 4, 5
+print(type(a))  # <class 'tuple'>
+print(a)  # (1, 2, 3, 4, 5)

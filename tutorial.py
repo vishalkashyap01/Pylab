@@ -419,6 +419,13 @@
 
 
 # python automatically convert var with multiple value to data structure called tuple
-a = 1, 2, 3, 4, 5
-print(type(a))  # <class 'tuple'>
-print(a)  # (1, 2, 3, 4, 5)
+# a = 1, 2, 3, 4, 5
+# print(type(a))  # <class 'tuple'>
+# print(a)  # (1, 2, 3, 4, 5)
+
+
+# List
+
+li = [1, 4, 2, 90, 23, 9.97, print, "Vishal", True, 4+9j, print()]
+print(type(li))  # <class 'list'>
+print(li)  # [1, 4, 2, 90, 23, 9.97, <built-in function print>, 'Vishal', True, (4+9j), None]

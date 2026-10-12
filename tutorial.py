@@ -452,22 +452,22 @@
 
 # largest number
 
-num = [23, 76, 189, 46, 90, 30, 45, 0, 89, 10]
+# num = [23, 76, 189, 46, 90, 30, 45, 0, 89, 10]
 
-largest = num[0]
-smallest = num[0]
-largest_index = 0
-smallest_index = 0
+# largest = num[0]
+# smallest = num[0]
+# largest_index = 0
+# smallest_index = 0
 
-for i in range(len(num)):
-        if num[i] >= largest:
-                largest = num[i] 
-                largest_index = i
-        if num[i] <= smallest:
-                smallest = num[i]
-                smallest_index = i
+# for i in range(len(num)):
+#         if num[i] >= largest:
+#                 largest = num[i] 
+#                 largest_index = i
+#         if num[i] <= smallest:
+#                 smallest = num[i]
+#                 smallest_index = i
                         
                         
-print(num)
-print(f"Largest number is {largest} and inedx is {largest_index}")        
-print(f"Smallest number is {smallest} and index is {smallest_index}")
+# print(num)
+# print(f"Largest number is {largest} and inedx is {largest_index}")        
+# print(f"Smallest number is {smallest} and index is {smallest_index}")

@@ -450,10 +450,9 @@
 
 
 
-# largest number
+# largest Number
 
 # num = [23, 76, 189, 46, 90, 30, 45, 0, 89, 10]
-
 # largest = num[0]
 # smallest = num[0]
 # largest_index = 0
@@ -466,8 +465,9 @@
 #         if num[i] <= smallest:
 #                 smallest = num[i]
 #                 smallest_index = i
-                        
-                        
+                                                
 # print(num)
 # print(f"Largest number is {largest} and inedx is {largest_index}")        
 # print(f"Smallest number is {smallest} and index is {smallest_index}")
+
+

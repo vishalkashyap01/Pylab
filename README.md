@@ -3,7 +3,7 @@
 # Repo modification command
 
 >_ git add .
->_ git commit -m "Commit message"
+>_ git commit -m "explore hash() ~ <string> | <tuple>"
 >_ git push
 >_ git status
 

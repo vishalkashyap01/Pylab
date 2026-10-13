@@ -574,16 +574,25 @@
 # print(f"B intersection A : {intersec}")
 
 
-A = {1, 2, 3}
-B = {3, 4, 5}
+# A = {1, 2, 3}
+# B = {3, 4, 5}
 
-diff = A.difference(B)
-print(diff)
+# diff = A.difference(B)
+# print(diff)
 
-diff = B.difference(A)
-print(diff)
+# diff = B.difference(A)
+# print(diff)
 
-diff = A.difference(A)
-print(diff)
-diff = B.difference(B)
-print(diff)
+# diff = A.difference(A)
+# print(diff)
+# diff = B.difference(B)
+# print(diff)
+
+# Dictinary - Total Price
+
+dic = {
+        "apple" : 75, "banana" : 60, "milk" : 35, "bread" : 50, "butter" : 25
+}
+
+total_amount = dic.get("apple") + dic.get("banana") + dic.get("milk") + dic.get("bread") + dic.get("butter")
+print(f"Total amount - {total_amount} Rs/-")

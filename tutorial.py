@@ -518,5 +518,14 @@
 
 
 # tuple un-boxing
-a, b, c, d = (2, 4, 6, 8)
-print(a, b, c, d)
+# a, b, c, d = (2, 4, 6, 8)
+# print(a, b, c, d)
+
+
+# Experiment 1 with tuple
+
+a = (1) # single value in tuple is consider as the variable according to the value it given 
+print(a, type(a))
+
+a = (1, )       # To store a single value in tuple is to put comma after giving the value
+print(a, type(a))

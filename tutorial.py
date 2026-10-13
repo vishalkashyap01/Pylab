@@ -522,10 +522,17 @@
 # print(a, b, c, d)
 
 
-# Experiment 1 with tuple
+# Experiment with tuple
 
-a = (1) # single value in tuple is consider as the variable according to the value it given 
-print(a, type(a))
+# a = (1) # single value in tuple is consider as the variable according to the value it given 
+# print(a, type(a))
 
-a = (1, )       # To store a single value in tuple is to put comma after giving the value
-print(a, type(a))
+# a = (1, )       # To store a single value in tuple is to put comma after giving the value
+# print(a, type(a))
+
+
+# tuple functions
+
+a = (9, 1, 1, 4, 3, 4, 1, 4, 4)
+print(a.count(4))       # count() - counts the occurance of value in tuple
+print(a.index(9))       # index() - search the lement in the tuple

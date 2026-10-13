@@ -540,10 +540,18 @@
 
 # SET 
 
-s = {1, 2, 4, 8, 16, 32, 62, 32}
-print(s)        # {32, 1, 2, 16, 4, 8, 62}
+# s = {1, 2, 4, 8, 16, 32, 62, 32}
+# print(s)        # {32, 1, 2, 16, 4, 8, 62}
 
-s3 = {"aws", "azure", "gcp", "ibm cloud", "aws"}
-print(s3)       # {'gcp', 'ibm cloud', 'aws', 'azure'}
+# s3 = {"aws", "azure", "gcp", "ibm cloud", "aws"}
+# print(s3)       # {'gcp', 'ibm cloud', 'aws', 'azure'}
 
 # Note - Element fetch in unordered may be due to hash
+
+
+# Hash()
+h = "Vishal"
+print(hash(h))
+
+tup = (1, 2, 3, 4)
+print(hash(tup))

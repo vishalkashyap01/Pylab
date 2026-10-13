@@ -533,6 +533,17 @@
 
 # tuple functions
 
-a = (9, 1, 1, 4, 3, 4, 1, 4, 4)
-print(a.count(4))       # count() - counts the occurance of value in tuple
-print(a.index(9))       # index() - search the lement in the tuple
+# a = (9, 1, 1, 4, 3, 4, 1, 4, 4)
+# print(a.count(4))       # count() - counts the occurance of value in tuple
+# print(a.index(9))       # index() - search the lement in the tuple
+
+
+# SET 
+
+s = {1, 2, 4, 8, 16, 32, 62, 32}
+print(s)        # {32, 1, 2, 16, 4, 8, 62}
+
+s3 = {"aws", "azure", "gcp", "ibm cloud", "aws"}
+print(s3)       # {'gcp', 'ibm cloud', 'aws', 'azure'}
+
+# Note - Element fetch in unordered may be due to hash

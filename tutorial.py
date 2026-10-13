@@ -473,18 +473,38 @@
 
 # Find Largest & Second Largest Number
 
-money = [12, 19, 16, 27, 22]
-largest_money = money[0]
-second_money = money[0]
+# money = [12, 19, 16, 27, 22]
+# largest_money = money[0]
+# second_money = money[0]
 
-for i in money:
-        if i > largest_money:
-                second_money = largest_money
-                largest_money = i
+# for i in money:
+#         if i > largest_money:
+#                 second_money = largest_money
+#                 largest_money = i
 
-        elif i > second_money:
-                second_money = i
+#         elif i > second_money:
+#                 second_money = i
 
-print(money)        
-print(f"Highest money - {largest_money}")
-print(f"Second highest money - {second_money}")                
+# print(money)        
+# print(f"Highest money - {largest_money}")
+# print(f"Second highest money - {second_money}")                
+
+
+
+# Ordered / Sorted ?
+
+series = [2, 3, 4, 5, 7, 33]
+lem = len(series) - 1
+sorted_unsorted = True
+
+for i in range(lem):
+        if series[i] < series[i+1]:
+                continue
+        else:
+                sorted_unsorted = False
+                break
+        
+if sorted_unsorted:
+        print("Sorted")        
+else:
+        print("UnSorted")

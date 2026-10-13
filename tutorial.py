@@ -558,17 +558,32 @@
 
 
 # UNION / INTERSECTION
+# A = {1, 2, 3}
+# B = {3, 4, 5}
+
+# uni = A.union(B)
+# print(f"A union B : {uni}")
+# print("--------------------------------------------------------------------------------------------")
+# uni1 = B.union(A)
+# print(f"B union A : {uni1}")
+# print("--------------------------------------------------------------------------------------------")
+# intersec = A.intersection(B)
+# print(f"A intersection B : {intersec}")
+# print("--------------------------------------------------------------------------------------------")
+# intersec1 = B.intersection(A)
+# print(f"B intersection A : {intersec}")
+
+
 A = {1, 2, 3}
 B = {3, 4, 5}
 
-uni = A.union(B)
-print(f"A union B : {uni}")
-print("--------------------------------------------------------------------------------------------")
-uni1 = B.union(A)
-print(f"B union A : {uni1}")
-print("--------------------------------------------------------------------------------------------")
-intersec = A.intersection(B)
-print(f"A intersection B : {intersec}")
-print("--------------------------------------------------------------------------------------------")
-intersec1 = B.intersection(A)
-print(f"B intersection A : {intersec}")
+diff = A.difference(B)
+print(diff)
+
+diff = B.difference(A)
+print(diff)
+
+diff = A.difference(A)
+print(diff)
+diff = B.difference(B)
+print(diff)

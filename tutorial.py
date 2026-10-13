@@ -471,3 +471,20 @@
 # print(f"Smallest number is {smallest} and index is {smallest_index}")
 
 
+# Find Largest & Second Largest Number
+
+money = [12, 19, 16, 27, 22]
+largest_money = money[0]
+second_money = money[0]
+
+for i in money:
+        if i > largest_money:
+                second_money = largest_money
+                largest_money = i
+
+        elif i > second_money:
+                second_money = i
+
+print(money)        
+print(f"Highest money - {largest_money}")
+print(f"Second highest money - {second_money}")                

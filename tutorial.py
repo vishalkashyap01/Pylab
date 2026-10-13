@@ -493,18 +493,25 @@
 
 # Ordered / Sorted ?
 
-series = [2, 3, 4, 5, 7, 33]
-lem = len(series) - 1
-sorted_unsorted = True
+# series = [2, 3, 4, 5, 7, 33]
+# lem = len(series) - 1
+# sorted_unsorted = True
 
-for i in range(lem):
-        if series[i] < series[i+1]:
-                continue
-        else:
-                sorted_unsorted = False
-                break
+# for i in range(lem):
+#         if series[i] < series[i+1]:
+#                 continue
+#         else:
+#                 sorted_unsorted = False
+#                 break
         
-if sorted_unsorted:
-        print("Sorted")        
-else:
-        print("UnSorted")
+# if sorted_unsorted:
+#         print("Sorted")        
+# else:
+#         print("UnSorted")
+
+
+# Tuple 
+
+a = (1, 2, 3, 4, 7, 7, 7.2, print(), "Hello", 89j)
+print(a)
+print(type(a))

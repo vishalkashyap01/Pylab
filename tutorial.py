@@ -512,6 +512,11 @@
 
 # Tuple 
 
-a = (1, 2, 3, 4, 7, 7, 7.2, print(), "Hello", 89j)
-print(a)
-print(type(a))
+# a = (1, 2, 3, 4, 7, 7, 7.2, print(), "Hello", 89j)
+# print(a)
+# print(type(a))
+
+
+# tuple un-boxing
+a, b, c, d = (2, 4, 6, 8)
+print(a, b, c, d)

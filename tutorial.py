@@ -625,13 +625,26 @@
 
 
 # Swallow Copy
-a = [1, 2, 3, 4]
-b = a.copy()
-b[0] = 100
-print(a)
-print(b)
+# a = [1, 2, 3, 4]
+# b = a.copy()
+# b[0] = 100
+# print(a)
+# print(b)
 
  
 # File Handling
 # todo = open(r'C:\Users\Vishal\OneDrive\Desktop\ai_ml_guide.txt')
 # print(todo.read())
+
+
+# Exception Handling
+
+n = int(input("Please, enter a number - "))
+try:
+        div = 10 / n
+        print(f"10 / {n} = {div}")
+        
+except ZeroDivisionError:
+        print("Invalid, number is zero")
+        
+print("Done, i don't care because i'm AI Engineer")     

@@ -596,10 +596,24 @@
 # total_amount = dic.get("apple") + dic.get("banana") + dic.get("milk") + dic.get("bread") + dic.get("butter")
 # print(f"Total amount - {total_amount} Rs/-")
 
-expense = {
-        "rent" : 7500, "food" : 4000, "shopping" : 3450, "savings" : 16000, "home" : 10000, "car" : 10000 
-}
-total_salary = 0
-for i in expense:
-        total_salary += expense[i]
-print(f"Total salary credited {total_salary} Rupees /-")        
+# 2
+# expense = {
+#         "rent" : 7500, "food" : 4000, "shopping" : 3450, "savings" : 16000, "home" : 10000, "car" : 10000 
+# }
+# total_salary = 0
+# for i in expense:
+#         total_salary += expense[i]
+# print(f"Total salary credited {total_salary} Rupees /-")        
+
+
+# 3
+l = [ 1,2,2,2,2,1,1,1,1,4,4,4,4,5,5,5,5,2,3,3,3,3,1,1,5 ]
+
+d = {}
+for i in l:
+        if i in d.keys():
+                d[i] += 1
+        else:
+                d[i] = 1        
+                
+print(d)

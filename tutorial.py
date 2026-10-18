@@ -607,13 +607,18 @@
 
 
 # 3
-l = [ 1,2,2,2,2,1,1,1,1,4,4,4,4,5,5,5,5,2,3,3,3,3,1,1,5 ]
+# l = [ 1,2,2,2,2,1,1,1,1,4,4,4,4,5,5,5,5,2,3,3,3,3,1,1,5 ]
+# d = {}
+# for i in l:
+#         if i in d.keys():
+#                 d[i] += 1
+#         else:
+#                 d[i] = 1                        
+# print(d)
 
-d = {}
-for i in l:
-        if i in d.keys():
-                d[i] += 1
-        else:
-                d[i] = 1        
-                
-print(d)
+
+
+# File Handling
+
+todo = open(r'C:\Users\Vishal\OneDrive\Desktop\ai_ml_guide.txt')
+print(todo.read())

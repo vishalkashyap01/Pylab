@@ -618,12 +618,20 @@
 
 
 # Deep Copy 
+# a = [1, 2, 3, 4]
+# b = a
+# b[1] = 25
+# print(a)
+
+
+# Swallow Copy
 a = [1, 2, 3, 4]
-b = a
-b[1] = 25
+b = a.copy()
+b[0] = 100
 print(a)
+print(b)
 
-
+ 
 # File Handling
 # todo = open(r'C:\Users\Vishal\OneDrive\Desktop\ai_ml_guide.txt')
 # print(todo.read())

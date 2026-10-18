@@ -673,19 +673,33 @@
 
 
 # try / except / else / finally
-n = int(input("Please, enter a number - "))
+# n = int(input("Please, enter a number - "))
 
-try:
-        div = 10 / n
-        print(f"10 / {n} = {div}")
+# try:
+#         div = 10 / n
+#         print(f"10 / {n} = {div}")
 
-except Exception as error:
-        print(f"Invalid, Error : {error}")
+# except Exception as error:
+#         print(f"Invalid, Error : {error}")
 
-else:
-        print("Runs only when no erro occurs")  
+# else:
+#         print("Runs only when no erro occurs")  
 
-finally:
-        print("I will runs always")
+# finally:
+#         print("I will runs always")
                               
-print("Done, i don't care because i'm AI Engineer") 
+# print("Done, i don't care because i'm AI Engineer") 
+
+
+
+# Manual Errors : raise
+
+rating = int(input("Please, rate your skills - "))
+try:
+    if rating <= 10 and rating >= 1:
+        raise ValueError("Congratulations, Offer Letter - Vishal Kashyap \n AI Engineer Intern - Artificial Intelligence Department")
+    else:
+        print("Welcome to Deloitte, India")
+finally:
+        print("Welcome to Deloitte, India")       
+        

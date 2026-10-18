@@ -639,25 +639,34 @@
 
 # Exception Handling
 
-# Type 1
+# try / except
 # n = int(input("Please, enter a number - "))
 # try:
 #         div = 10 / n
 #         print(f"10 / {n} = {div}")
-        
 # except ZeroDivisionError:
 #         print("Invalid, number is zero")
-        
 # print("Done, i don't care because i'm AI Engineer")     
 
 
-# Type 2
+# try / except / error 
+# n = int(input("Please, enter a number - "))
+# try:
+#         div = 10 / n
+#         print(f"10 / {n} = {div}")
+# except Exception as error:
+#         print(f"Invalid, Error : {error}")        
+# print("Done, i don't care because i'm AI Engineer")     
+
+
+
+# try / except / else
 n = int(input("Please, enter a number - "))
 try:
         div = 10 / n
         print(f"10 / {n} = {div}")
-        
 except Exception as error:
         print(f"Invalid, Error : {error}")
-        
-print("Done, i don't care because i'm AI Engineer")     
+else:
+        print("Runs only when no erro occurs")                
+print("Done, i don't care because i'm AI Engineer") 

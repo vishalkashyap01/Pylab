@@ -617,8 +617,13 @@
 # print(d)
 
 
+# Deep Copy 
+a = [1, 2, 3, 4]
+b = a
+b[1] = 25
+print(a)
+
 
 # File Handling
-
-todo = open(r'C:\Users\Vishal\OneDrive\Desktop\ai_ml_guide.txt')
-print(todo.read())
+# todo = open(r'C:\Users\Vishal\OneDrive\Desktop\ai_ml_guide.txt')
+# print(todo.read())

@@ -548,7 +548,6 @@
 
 # Note - Element fetch in unordered may be due to hash
 
-
 # Hash()
 # h = "Vishal"
 # print(hash(h))
@@ -590,9 +589,17 @@
 
 # Dictinary - Total Price
 
-dic = {
-        "apple" : 75, "banana" : 60, "milk" : 35, "bread" : 50, "butter" : 25
-}
+# dic = {
+#         "apple" : 75, "banana" : 60, "milk" : 35, "bread" : 50, "butter" : 25
+# }
 
-total_amount = dic.get("apple") + dic.get("banana") + dic.get("milk") + dic.get("bread") + dic.get("butter")
-print(f"Total amount - {total_amount} Rs/-")
+# total_amount = dic.get("apple") + dic.get("banana") + dic.get("milk") + dic.get("bread") + dic.get("butter")
+# print(f"Total amount - {total_amount} Rs/-")
+
+expense = {
+        "rent" : 7500, "food" : 4000, "shopping" : 3450, "savings" : 16000, "home" : 10000, "car" : 10000 
+}
+total_salary = 0
+for i in expense:
+        total_salary += expense[i]
+print(f"Total salary credited {total_salary} Rupees /-")        

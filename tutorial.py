@@ -694,12 +694,16 @@
 
 # Manual Errors : raise
 
-rating = int(input("Please, rate your skills - "))
-try:
-    if rating <= 10 and rating >= 1:
-        raise ValueError("Congratulations, Offer Letter - Vishal Kashyap \n AI Engineer Intern - Artificial Intelligence Department")
-    else:
-        print("Welcome to Deloitte, India")
-finally:
-        print("Welcome to Deloitte, India")       
+# rating = int(input("Please, rate your skills - "))
+# try:
+#     if rating <= 10 and rating >= 1:
+#         raise ValueError("Congratulations, Offer Letter - Vishal Kashyap \n AI Engineer Intern - Artificial Intelligence Department")
+#     else:
+#         print("Welcome to Deloitte, India")
+# finally:
+#         print("Welcome to Deloitte, India")       
+        
+        
+# ToDo : Perform CRUD Operations including file & folders
+
         

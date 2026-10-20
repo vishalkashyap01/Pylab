@@ -743,11 +743,26 @@
 
 
 # 2
-class Animal:
-        species = "Fox"
-        def __init__(self, sound):
-                self.sound = sound
-                print(f"Species : {self.species}")
-                print(f"Sound : {self.sound}")
+# class Animal:
+#         species = "Fox"
+#         def __init__(self, sound):
+#                 self.sound = sound
+#                 print(f"Species : {self.species}")
+#                 print(f"Sound : {self.sound}")
 
-v = Animal("screams")
+# v = Animal("screams")
+
+
+# 3
+class Factory:
+        def __init__(self, material, zips, pockets):
+                self.material = material
+                self.zips = zips
+                self.pockets = pockets
+                # print(self)
+
+campus = Factory("Leather", 3, 2)
+reebok = Factory("Nylon", 7, 5)        
+
+print(campus.material, campus.zips, campus.pockets)  
+print(reebok.material, reebok.zips, reebok.pockets)      

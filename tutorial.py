@@ -706,13 +706,20 @@
         
 # ToDo : Perform CRUD Operations including file & folders
 
-from pathlib import Path
+# from pathlib import Path
 
-def read_file_dir():
-        path = Path(r"C:\Users\Vishal\OneDrive\Desktop\Pylab")
-        items = list(path.rglob('*'))
-        for i, items in enumerate(items):
-                print(f"{i+1}. {items}")
-read_file_dir()
+# def read_file_dir():
+#         path = Path(r"C:\Users\Vishal\OneDrive\Desktop\Pylab")
+#         items = list(path.rglob('*'))
+#         for i, items in enumerate(items):
+#                 print(f"{i+1}. {items}")
+# read_file_dir()
 
 
+# Object Oriended Programming (OOPs) - Class & Object
+
+# 1. Impretative approach - procedural programming
+a = 2
+b = 9
+sum = a + b
+print(sum)

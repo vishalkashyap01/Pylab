@@ -769,18 +769,35 @@
 
 
 # Super Function - super()  
-class Animal:
+# class Animal:
+#         def __init__(self, name):
+#                 self.name = name
+#         def show(self):
+#                 print(f"Hello, your name is {self.name}")
+                
+# class Human(Animal):
+#         def __init__(self, name, age):
+#                 super().__init__(name)
+#                 self.age = age
+#         def show(self):
+#                 print(f"Hello, {self.name} {self.age}")       
+
+# person = Human("Ben", 23)
+# person.show()
+
+
+# Super function - 2
+class Employee:
         def __init__(self, name):
                 self.name = name
+        
         def show(self):
-                print(f"Hello, your name is {self.name}")
+                print(f"Employee: {self.name}")
+        
+class Manager(Employee):
+        def show(self):
+                super().show()
+                print(f"Role: Manager")
                 
-class Human(Animal):
-        def __init__(self, name, age):
-                super().__init__(name)
-                self.age = age
-        def show(self):
-                print(f"Hello, {self.name} {self.age}")       
-
-person = Human("Ben", 23)
-person.show()
+j0310 = Manager("Vishal")
+j0310.show()

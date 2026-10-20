@@ -753,16 +753,34 @@
 # v = Animal("screams")
 
 
-# 3
-class Factory:
-        def __init__(self, material, zips, pockets):
-                self.material = material
-                self.zips = zips
-                self.pockets = pockets
-                # print(self)
+# # 3
+# class Factory:
+#         def __init__(self, material, zips, pockets):
+#                 self.material = material
+#                 self.zips = zips
+#                 self.pockets = pockets
+#                 # print(self)
 
-campus = Factory("Leather", 3, 2)
-reebok = Factory("Nylon", 7, 5)        
+# campus = Factory("Leather", 3, 2)
+# reebok = Factory("Nylon", 7, 5)        
 
-print(campus.material, campus.zips, campus.pockets)  
-print(reebok.material, reebok.zips, reebok.pockets)      
+# print(campus.material, campus.zips, campus.pockets)  
+# print(reebok.material, reebok.zips, reebok.pockets)    
+
+
+# Super Function - super()  
+class Animal:
+        def __init__(self, name):
+                self.name = name
+        def show(self):
+                print(f"Hello, your name is {self.name}")
+                
+class Human(Animal):
+        def __init__(self, name, age):
+                super().__init__(name)
+                self.age = age
+        def show(self):
+                print(f"Hello, {self.name} {self.age}")       
+
+person = Human("Ben", 23)
+person.show()

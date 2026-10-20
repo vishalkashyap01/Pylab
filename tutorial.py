@@ -787,17 +787,29 @@
 
 
 # Super function - 2
-class Employee:
-        def __init__(self, name):
-                self.name = name
+# class Employee:
+#         def __init__(self, name):
+#                 self.name = name
         
-        def show(self):
-                print(f"Employee: {self.name}")
+#         def show(self):
+#                 print(f"Employee: {self.name}")
         
-class Manager(Employee):
-        def show(self):
-                super().show()
-                print(f"Role: Manager")
+# class Manager(Employee):
+#         def show(self):
+#                 super().show()
+#                 print(f"Role: Manager")
                 
-j0310 = Manager("Vishal")
-j0310.show()
+# j0310 = Manager("Vishal")
+# j0310.show()
+
+
+# Encapsulation 
+class Silicon:
+        name = "Anthropic Inc."            # Public 
+        _upcoming_model = "Opus 6.7"       # Protected
+        __upcoming_dates = "25-oct-2027"   # Private
+
+claude = Silicon()
+print(f"\n{claude.name}")
+print(claude._upcoming_model)
+# print(claude.__upcoming_dates)    

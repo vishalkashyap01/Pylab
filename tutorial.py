@@ -719,7 +719,14 @@
 # Object Oriended Programming (OOPs) - Class & Object
 
 # 1. Impretative approach - procedural programming
-a = 2
-b = 9
-sum = a + b
-print(sum)
+# a = 2
+# b = 9
+# sum = a + b
+# print(sum)
+
+
+# 2. Functional approach
+def sum(a, b):
+        return a + b
+
+print(sum(5, 20))

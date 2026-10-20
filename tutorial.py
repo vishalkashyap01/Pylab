@@ -803,13 +803,15 @@
 # j0310.show()
 
 
-# Encapsulation 
-class Silicon:
-        name = "Anthropic Inc."            # Public 
-        _upcoming_model = "Opus 6.7"       # Protected
-        __upcoming_dates = "25-oct-2027"   # Private
+# Encapsulation - (public/private/protected)
 
-claude = Silicon()
-print(f"\n{claude.name}")
-print(claude._upcoming_model)
-# print(claude.__upcoming_dates)    
+# class Silicon:
+#         name = "Anthropic Inc."            # Public 
+#         _upcoming_model = "Opus 6.7"       # Protected
+#         __upcoming_dates = "25-oct-2027"   # Private
+
+# claude = Silicon()
+# print(f"\n{claude.name}")
+# print(claude._upcoming_model)
+# # print(claude.__upcoming_dates)    
+

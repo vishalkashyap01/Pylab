@@ -726,7 +726,17 @@
 
 
 # 2. Functional approach
-def sum(a, b):
-        return a + b
+# def sum(a, b):
+#         return a + b
 
-print(sum(5, 20))
+# print(sum(5, 20))
+
+
+# OOPs approach - class / object 
+class Model:
+        llm = "openAI"
+        def __init__(self):
+                pass
+        
+chatgpt = Model()
+print(f"Model : {chatgpt.llm}")      

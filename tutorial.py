@@ -815,3 +815,21 @@
 # print(claude._upcoming_model)
 # # print(claude.__upcoming_dates)    
 
+
+# Abstract class
+from abc import ABC, abstractmethod
+class abstract(ABC):
+        @abstractmethod
+        def perimeter(self):
+                pass
+        
+class Square(abstract):
+        def __init__(self, radius):
+                self.radius = radius
+                
+        def perimeter(self):
+                print(f"Perimeter is {2 * 3.14 * self.radius}")
+                
+sq = Square(5)
+sq.perimeter()                                
+        

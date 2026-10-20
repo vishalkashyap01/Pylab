@@ -733,10 +733,21 @@
 
 
 # OOPs approach - class / object 
-class Model:
-        llm = "openAI"
-        def __init__(self):
-                pass
+# class Model:
+#         llm = "openAI"
+#         def __init__(self):
+#                 pass
         
-chatgpt = Model()
-print(f"Model : {chatgpt.llm}")      
+# chatgpt = Model()
+# print(f"Model : {chatgpt.llm}")      
+
+
+# 2
+class Animal:
+        species = "Fox"
+        def __init__(self, sound):
+                self.sound = sound
+                print(f"Species : {self.species}")
+                print(f"Sound : {self.sound}")
+
+v = Animal("screams")

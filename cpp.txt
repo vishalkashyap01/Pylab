@@ -1,3 +1,4 @@
+/* Function - No Args and No return type */
 #include <iostream>
 using namespace std;
 class Sum{
